@@ -28,18 +28,32 @@
    <dependencies>
 
       <dependency>
-         <groupId>servlet-api</groupId>
-         <artifactId>servlet-api</artifactId>
+         <groupId>servlet-api-2.5</groupId>
+         <artifactId>servlet-api-2.5</artifactId>
          <scope>system</scope>
-         <version>1.0</version>
-         <systemPath>${basedir}\WebContent\WEB-INF\lib\servlet-api-2.5.jar</systemPath>
+         <version>2.5</version>
+         <systemPath>${basedir}\lib\servlet-api-2.5.jar</systemPath>
       </dependency>
       <dependency>
-         <groupId>mysql-connector</groupId>
-         <artifactId>mysql-connector</artifactId>
+         <groupId>mysql-connector-java-8.0.13</groupId>
+         <artifactId>mysql-connector-java-8.0.13</artifactId>
          <scope>system</scope>
          <version>8.0.13</version>
-         <systemPath>${basedir}\WebContent\WEB-INF\lib\mysql-connector-java-8.0.13.jar</systemPath>
+         <systemPath>${basedir}\lib\mysql-connector-java-8.0.13.jar</systemPath>
+      </dependency>
+      <dependency>
+         <groupId>jsp-api-2.2</groupId>
+         <artifactId>jsp-api-2.2</artifactId>
+         <scope>system</scope>
+         <version>2.2</version>
+         <systemPath>${basedir}\lib\jsp-api-2.2.jar</systemPath>
+      </dependency>
+      <dependency>
+         <groupId>jstl-1.2</groupId>
+         <artifactId>jstl-1.2</artifactId>
+         <scope>system</scope>
+         <version>1.2</version>
+         <systemPath>${basedir}\lib\jstl-1.2.jar</systemPath>
       </dependency>
    </dependencies>
 </project>
